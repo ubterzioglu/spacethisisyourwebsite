@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light" />
+  <title>KH-01 — Personal Site</title>
+  <meta name="description" content="Professional digital business card and portfolio." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">İçeriğe atla</a>
+
+  <header class="topbar">
+    <div class="topbar__left">
+      <div class="mark" aria-hidden="true">
+        <span class="mark__dot"></span><span class="mark__dot"></span><span class="mark__dot"></span>
+      </div>
+      <div class="id">
+        <div class="id__title">
+          <span class="mono">KH-01</span>
+          <span class="sep" aria-hidden="true">•</span>
+          <span data-i18n="headerTag">Dijital Kartvizit</span>
+        </div>
+        <div class="id__sub" data-i18n="headerSub">Profesyonel • Sade • Düzenli</div>
+      </div>
+    </div>
+
+    <div class="topbar__right">
+      <nav class="nav" aria-label="Primary">
+        <a href="#about" data-i18n="navAbout">Hakkımda</a>
+        <a href="#experience" data-i18n="navExp">Deneyim</a>
+        <a href="#projects" data-i18n="navProj">Projeler</a>
+        <a href="#skills" data-i18n="navSkills">Beceriler</a>
+        <a href="#contact" class="nav__cta" data-i18n="navContact">İletişim</a>
+      </nav>
+
+      <div class="lang" role="group" aria-label="Language">
+        <button class="lang__btn" type="button" data-lang-btn="tr" aria-pressed="true">TR</button>
+        <button class="lang__btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO (visual-weighted) -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__grid">
+        <div class="hero__card">
+          <div class="avatar" aria-hidden="true">
+            <div class="avatar__ring"></div>
+            <div class="avatar__monogram">KH</div>
+          </div>
+
+          <div class="hero__title">
+            <h1>
+              <span class="kicker" data-i18n="heroKicker">Merhaba, ben</span>
+              <span class="name">Kasım Hanik</span>
+            </h1>
+            <p class="role" data-i18n="heroRole">Profesyonel profil • Kısa ve net anlatım</p>
+          </div>
+
+          <div class="hero__meta">
+            <div class="metaRow">
+              <span class="metaLabel" data-i18n="metaLocationLabel">Konum</span>
+              <span class="metaValue" data-i18n="metaLocationValue">Germany (örnek)</span>
+            </div>
+            <div class="metaRow">
+              <span class="metaLabel" data-i18n="metaAudienceLabel">Hedef</span>
+              <span class="metaValue" data-i18n="metaAudienceValue">Herkes</span>
+            </div>
+            <div class="metaRow">
+              <span class="metaLabel" data-i18n="metaFocusLabel">Odak</span>
+              <span class="metaValue" data-i18n="metaFocusValue">Dijital kartvizit + seçili işler</span>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact" data-i18n="ctaPrimary">İletişime Geç</a>
+            <a class="btn btn--ghost" href="#" target="_blank" rel="noreferrer" data-i18n="ctaLinkedIn">LinkedIn</a>
+            <a class="btn btn--ghost" href="#" target="_blank" rel="noreferrer" data-i18n="ctaInstagram">Instagram</a>
+          </div>
+
+          <div class="hero__note" role="note">
+            <span class="dot" aria-hidden="true"></span>
+            <span data-i18n="heroNote">CV ve fotoğraf paylaşılmadığı için sade, anonim bir görünüm kullanıldı.</span>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="blob blob--a"></div>
+          <div class="blob blob--b"></div>
+          <div class="glass">
+            <div class="glass__line"></div>
+            <div class="glass__line"></div>
+            <div class="glass__line"></div>
+            <div class="glass__cap"></div>
+          </div>
+          <div class="caption">
+            <div class="caption__kicker">PASTEL</div>
+            <div class="caption__text" data-i18n="visualCaption">Dengeli tasarım • Akışkan okuma</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT (scroll flow) -->
+    <section id="about" class="section">
+      <div class="section__head">
+        <h2 data-i18n="aboutTitle">Kısa Özet</h2>
+        <p class="section__sub" data-i18n="aboutSub">Bir bakışta kim olduğumu ve ne yaptığımı görün.</p>
+      </div>
+
+      <div class="panel">
+        <p data-i18n="aboutP1">
+          Bu sayfa, dijital kartvizit gibi hızlıca gezinilebilecek şekilde tasarlandı. Net, sade ve profesyonel bir
+          izlenim hedefler.
+        </p>
+        <p data-i18n="aboutP2">
+          Aşağıda deneyim, seçili projeler ve beceriler düzenli bloklar halinde yer alır. Amaç: karşı tarafa gereksiz
+          kalabalık olmadan güven vermek.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section__head">
+        <h2 data-i18n="expTitle">Deneyim</h2>
+        <p class="section__sub" data-i18n="expSub">Zaman çizgisi gibi okunur, detay kaybolmaz.</p>
+      </div>
+
+      <ol class="timeline" aria-label="Experience timeline">
+        <li class="tItem">
+          <div class="tDot" aria-hidden="true"></div>
+          <div class="tCard">
+            <div class="tTop">
+              <span class="tRole" data-i18n="exp1Role">Pozisyon Başlığı (örnek)</span>
+              <span class="tWhen" data-i18n="exp1When">2023 — 2026</span>
+            </div>
+            <div class="tCompany" data-i18n="exp1Company">Şirket / Organizasyon (örnek)</div>
+            <ul class="tBullets">
+              <li data-i18n="exp1B1">Kısa ve ölçülebilir bir sorumluluk cümlesi.</li>
+              <li data-i18n="exp1B2">Bir süreç iyileştirmesi veya katkı.</li>
+              <li data-i18n="exp1B3">Takım/iletişim yönünü gösteren bir madde.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tItem">
+          <div class="tDot" aria-hidden="true"></div>
+          <div class="tCard">
+            <div class="tTop">
+              <span class="tRole" data-i18n="exp2Role">Önceki Pozisyon (örnek)</span>
+              <span class="tWhen" data-i18n="exp2When">2020 — 2023</span>
+            </div>
+            <div class="tCompany" data-i18n="exp2Company">Şirket / Organizasyon (örnek)</div>
+            <ul class="tBullets">
+              <li data-i18n="exp2B1">Düzenli yürütülen bir sorumluluk alanı.</li>
+              <li data-i18n="exp2B2">Bir proje veya teslim çıktısı.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section__head">
+        <h2 data-i18n="projTitle">Projeler</h2>
+        <p class="section__sub" data-i18n="projSub">Liste halinde: hızlı tarama + net başlıklar.</p>
+      </div>
+
+      <div class="listCard" role="region" aria-label="Projects list">
+        <div class="listHeader">
+          <div class="listHeader__left">
+            <span class="pill" data-i18n="projPill">Seçilmiş</span>
+            <span class="listHeader__title" data-i18n="projHeader">Öne Çıkan Çalışmalar</span>
+          </div>
+          <div class="listHeader__right">
+            <span class="hint" data-i18n="projHint">Detayları görüşmede paylaşabilirim</span>
+          </div>
+        </div>
+
+        <ul class="projList">
+          <li class="projRow">
+            <div class="projMain">
+              <div class="projName" data-i18n="proj1Name">Proje Adı 1</div>
+              <div class="projDesc" data-i18n="proj1Desc">Kısa açıklama: neydi, ne çözdü, neden önemliydi.</div>
+            </div>
+            <div class="projMeta">
+              <span class="badge" data-i18n="proj1Tag1">Web</span>
+              <span class="badge" data-i18n="proj1Tag2">Otomasyon</span>
+            </div>
+          </li>
+
+          <li class="projRow">
+            <div class="projMain">
+              <div class="projName" data-i18n="proj2Name">Proje Adı 2</div>
+              <div class="projDesc" data-i18n="proj2Desc">Kısa açıklama: sonuç, etki, kullanıcı değeri.</div>
+            </div>
+            <div class="projMeta">
+              <span class="badge" data-i18n="proj2Tag1">Süreç</span>
+              <span class="badge" data-i18n="proj2Tag2">Kalite</span>
+            </div>
+          </li>
+
+          <li class="projRow">
+            <div class="projMain">
+              <div class="projName" data-i18n="proj3Name">Proje Adı 3</div>
+              <div class="projDesc" data-i18n="proj3Desc">Kısa açıklama: teknik/iş tarafı dengesi.</div>
+            </div>
+            <div class="projMeta">
+              <span class="badge" data-i18n="proj3Tag1">B2B</span>
+              <span class="badge" data-i18n="proj3Tag2">İyileştirme</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section__head">
+        <h2 data-i18n="skillsTitle">Beceriler</h2>
+        <p class="section__sub" data-i18n="skillsSub">Dengeli yoğunluk: hızlı taranır, abartı yok.</p>
+      </div>
+
+      <div class="chips" aria-label="Skills">
+        <span class="chip">Communication</span>
+        <span class="chip">Problem Solving</span>
+        <span class="chip">Quality Mindset</span>
+        <span class="chip">Automation</span>
+        <span class="chip">Documentation</span>
+        <span class="chip">Stakeholder Mgmt</span>
+        <span class="chip">Testing</span>
+        <span class="chip">Release Support</span>
+        <span class="chip">Teamwork</span>
+        <span class="chip">Continuous Improvement</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--contact">
+      <div class="section__head">
+        <h2 data-i18n="contactTitle">İletişim</h2>
+        <p class="section__sub" data-i18n="contactSub">En hızlı kanal: WhatsApp. Diğerleri: LinkedIn ve e-posta.</p>
+      </div>
+
+      <div class="contactGrid">
+        <a class="contactCard" href="#" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+          <div class="contactIcon" aria-hidden="true">WA</div>
+          <div class="contactText">
+            <div class="contactTitle">WhatsApp</div>
+            <div class="contactMeta" data-i18n="contactFast">Hızlı</div>
+          </div>
+          <div class="contactArrow" aria-hidden="true">↗</div>
+        </a>
+
+        <a class="contactCard" href="#" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <div class="contactIcon" aria-hidden="true">in</div>
+          <div class="contactText">
+            <div class="contactTitle">LinkedIn</div>
+            <div class="contactMeta" data-i18n="contactNormal">Normal</div>
+          </div>
+          <div class="contactArrow" aria-hidden="true">↗</div>
+        </a>
+
+        <a class="contactCard" href="mailto:example@example.com" aria-label="Email">
+          <div class="contactIcon" aria-hidden="true">@</div>
+          <div class="contactText">
+            <div class="contactTitle" data-i18n="contactEmail">E-posta</div>
+            <div class="contactMeta" data-i18n="contactSlow">Yavaş</div>
+          </div>
+          <div class="contactArrow" aria-hidden="true">↗</div>
+        </a>
+
+        <a class="contactCard" href="#" target="_blank" rel="noreferrer" aria-label="Instagram">
+          <div class="contactIcon" aria-hidden="true">IG</div>
+          <div class="contactText">
+            <div class="contactTitle">Instagram</div>
+            <div class="contactMeta" data-i18n="contactSocial">Sosyal</div>
+          </div>
+          <div class="contactArrow" aria-hidden="true">↗</div>
+        </a>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__left">
+          <span class="mono">KH-01</span>
+          <span class="sep" aria-hidden="true">•</span>
+          <span data-i18n="footerLine">Sade & net kişisel sayfa</span>
+        </div>
+        <div class="footer__right">
+          <button class="toTop" type="button" data-to-top>
+            <span aria-hidden="true">↑</span>
+            <span data-i18n="toTop">Yukarı</span>
+          </button>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
